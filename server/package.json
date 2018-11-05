@@ -1,0 +1,25 @@
+{
+  "name": "chatapp_server",
+  "version": "1.0.0",
+  "description": "Chat App Server",
+  "main": "app.js",
+  "engines": {
+    "node": "8.12.0",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Arsen Cenko",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
